@@ -3,8 +3,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
-  
-     "start": "env-cmd -f .env node server.js",
+    "start": "env-cmd -f .env node server.js",
     "build:prod": "env-cmd -f .env.prod next build"
   },
   "dependencies": {
@@ -14,6 +13,7 @@
     "autoprefixer": "10.4.20",
     "bcrypt": "^5.1.1",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
     "env-cmd": "^10.1.0",
     "next": "latest",
     "next-auth": "5.0.0-beta.19",
